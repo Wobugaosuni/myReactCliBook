@@ -44,7 +44,7 @@
 试想，从远端拉下来的模板，里面`package.json`的项目名`name`、版本号`version`、描述`description`，都是固定的。如果我想把这些作为变量，在用户初始化项目时就让用户输入填充进去模板呢？
 有解决方案吗？
 
-![server3.jpeg](quiver-image-url/56EE250C58964CB99A67D48197E5DCF1.jpg)
+![PNG](\images\server3.png)
 
 在这里使用上图的方案，我们使用了`co-prompt`来获取了用户的输入（变量值），然后利用`metalsmith`和`handlebars`，将这些输入的内容插入到模板中，完成了脚手架的初始化输出
 
