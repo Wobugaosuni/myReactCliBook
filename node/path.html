@@ -1,0 +1,453 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Node.js结合详解-path · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="fs.html" />
+    
+    
+    <link rel="prev" href="process.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    脚手架搭建
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../cli/cli1.html">
+            
+                <a href="../cli/cli1.html">
+            
+                    
+                    1. 技术选型
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="../cli/cli2.html">
+            
+                <a href="../cli/cli2.html">
+            
+                    
+                    2. 整体框架
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="../cli/cli3.html">
+            
+                <a href="../cli/cli3.html">
+            
+                    
+                    3. 入口文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="../cli/cli4.html">
+            
+                <a href="../cli/cli4.html">
+            
+                    
+                    4. 项目初始化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.5" data-path="../cli/cli5.html">
+            
+                <a href="../cli/cli5.html">
+            
+                    
+                    5. 全局使用
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="../cli/cli6.html">
+            
+                <a href="../cli/cli6.html">
+            
+                    
+                    6. 本地调试
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.7" data-path="../cli/cli7.html">
+            
+                <a href="../cli/cli7.html">
+            
+                    
+                    7. 发布到NPM
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.8" data-path="../cli/cli8.html">
+            
+                <a href="../cli/cli8.html">
+            
+                    
+                    8. 文档参考
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    Node.js相关
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="process.html">
+            
+                <a href="process.html">
+            
+                    
+                    Node.js结合详解-process
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.3.2" data-path="path.html">
+            
+                <a href="path.html">
+            
+                    
+                    Node.js结合详解-path
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="fs.html">
+            
+                <a href="fs.html">
+            
+                    
+                    Node.js结合详解-fs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="paths.html">
+            
+                <a href="paths.html">
+            
+                    
+                    Node.js各种路径
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Node.js结合详解-path</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="nodejs&#x7ED3;&#x5408;&#x8BE6;&#x89E3;-path">Node.js&#x7ED3;&#x5408;&#x8BE6;&#x89E3;-path</h1>
+<h2 id="path&#x8DEF;&#x5F84;"><a href="http://nodejs.cn/api/path.html#path_path_basename_path_ext" target="_blank">path</a>&#x8DEF;&#x5F84;</h2>
+<h2 id="pathbasenamepath-ext">path.basename(path[, ext])</h2>
+<p>  path <string>
+  ext <string> &#x53EF;&#x9009;&#x7684;&#x6587;&#x4EF6;&#x6269;&#x5C55;&#x540D;
+  &#x8FD4;&#x56DE;: <string></string></string></string></p>
+<h2 id="pathresolvepaths">path.resolve([...paths])</h2>
+<ul>
+<li>...paths <string> &#x4E00;&#x4E2A;&#x8DEF;&#x5F84;&#x6216;&#x8DEF;&#x5F84;&#x7247;&#x6BB5;&#x7684;&#x5E8F;&#x5217;</string></li>
+<li>&#x8FD4;&#x56DE;: <string>&#xFF0C;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x7EDD;&#x5BF9;&#x8DEF;&#x5F84;</string></li>
+<li><code>path.resolve()</code> &#x65B9;&#x6CD5;&#x4F1A;&#x628A;&#x4E00;&#x4E2A;&#x8DEF;&#x5F84;&#x6216;&#x8DEF;&#x5F84;&#x7247;&#x6BB5;&#x7684;&#x5E8F;&#x5217;&#x89E3;&#x6790;&#x4E3A;&#x4E00;&#x4E2A;&#x7EDD;&#x5BF9;&#x8DEF;&#x5F84;&#x3002;</li>
+</ul>
+<p>&#x7ED9;&#x5B9A;&#x7684;&#x8DEF;&#x5F84;&#x7684;&#x5E8F;&#x5217;&#x662F;&#x4ECE;&#x53F3;&#x5F80;&#x5DE6;&#x88AB;&#x5904;&#x7406;&#x7684;&#xFF0C;&#x540E;&#x9762;&#x6BCF;&#x4E2A; <code>path</code> &#x88AB;&#x4F9D;&#x6B21;&#x89E3;&#x6790;&#xFF0C;&#x76F4;&#x5230;&#x6784;&#x9020;&#x5B8C;&#x6210;&#x4E00;&#x4E2A;&#x7EDD;&#x5BF9;&#x8DEF;&#x5F84;&#x3002; &#x4F8B;&#x5982;&#xFF0C;&#x7ED9;&#x5B9A;&#x7684;&#x8DEF;&#x5F84;&#x7247;&#x6BB5;&#x7684;&#x5E8F;&#x5217;&#x4E3A;&#xFF1A;<code>/foo&#x3001;/bar&#x3001;baz</code>&#xFF0C;&#x5219;&#x8C03;&#x7528; <code>path.resolve(&apos;/foo&apos;, &apos;/bar&apos;, &apos;baz&apos;)</code> &#x4F1A;&#x8FD4;&#x56DE; <code>/bar/baz</code>&#x3002;</p>
+<p>&#x5982;&#x679C;&#x5904;&#x7406;&#x5B8C;&#x5168;&#x90E8;&#x7ED9;&#x5B9A;&#x7684; <code>path</code> &#x7247;&#x6BB5;&#x540E;&#x8FD8;&#x672A;&#x751F;&#x6210;&#x4E00;&#x4E2A;&#x7EDD;&#x5BF9;&#x8DEF;&#x5F84;&#xFF0C;&#x5219;&#x5F53;&#x524D;&#x5DE5;&#x4F5C;&#x76EE;&#x5F55;&#x4F1A;&#x88AB;&#x7528;&#x4E0A;&#x3002;</p>
+<p>&#x751F;&#x6210;&#x7684;&#x8DEF;&#x5F84;&#x662F;&#x89C4;&#x8303;&#x5316;&#x540E;&#x7684;&#xFF0C;&#x4E14;&#x672B;&#x5C3E;&#x7684;&#x659C;&#x6760;&#x4F1A;&#x88AB;&#x5220;&#x9664;&#xFF0C;&#x9664;&#x975E;&#x8DEF;&#x5F84;&#x88AB;&#x89E3;&#x6790;&#x4E3A;&#x6839;&#x76EE;&#x5F55;&#x3002;</p>
+<p>&#x957F;&#x5EA6;&#x4E3A;&#x96F6;&#x7684; <code>path</code> &#x7247;&#x6BB5;&#x4F1A;&#x88AB;&#x5FFD;&#x7565;&#x3002;</p>
+<p>&#x5982;&#x679C;&#x6CA1;&#x6709;&#x4F20;&#x5165; <code>path</code> &#x7247;&#x6BB5;&#xFF0C;&#x5219; <code>path.resolve()</code> &#x4F1A;&#x8FD4;&#x56DE;&#x5F53;&#x524D;&#x5DE5;&#x4F5C;&#x76EE;&#x5F55;&#x7684;&#x7EDD;&#x5BF9;&#x8DEF;&#x5F84;&#x3002;</p>
+<pre><code class="lang-js">path.resolve(process.cwd(), <span class="hljs-string">&apos;test&apos;</span>)
+<span class="hljs-comment">// &#x8FD4;&#x56DE;&#xFF1A;&apos;/Users/qiuxia/code/react/test&apos;</span>
+
+path.resolve(<span class="hljs-string">&apos;/foo/bar&apos;</span>, <span class="hljs-string">&apos;./baz&apos;</span>);
+<span class="hljs-comment">// &#x8FD4;&#x56DE;: &apos;/foo/bar/baz&apos;</span>
+
+path.resolve(<span class="hljs-string">&apos;/foo/bar&apos;</span>, <span class="hljs-string">&apos;/tmp/file/&apos;</span>);
+<span class="hljs-comment">// &#x8FD4;&#x56DE;: &apos;/tmp/file&apos;</span>
+
+path.resolve(<span class="hljs-string">&apos;wwwroot&apos;</span>, <span class="hljs-string">&apos;static_files/png/&apos;</span>, <span class="hljs-string">&apos;../gif/image.gif&apos;</span>);
+<span class="hljs-comment">// &#x5982;&#x679C;&#x5F53;&#x524D;&#x5DE5;&#x4F5C;&#x76EE;&#x5F55;&#x4E3A; /home/myself/node&#xFF0C;</span>
+<span class="hljs-comment">// &#x5219;&#x8FD4;&#x56DE; &apos;/home/myself/node/wwwroot/static_files/gif/image.gif&apos;</span>
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="process.html" class="navigation navigation-prev " aria-label="Previous page: Node.js结合详解-process">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="fs.html" class="navigation navigation-next " aria-label="Next page: Node.js结合详解-fs">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Node.js结合详解-path","level":"1.3.2","depth":2,"next":{"title":"Node.js结合详解-fs","level":"1.3.3","depth":2,"path":"node/fs.md","ref":"node/fs.md","articles":[]},"previous":{"title":"Node.js结合详解-process","level":"1.3.1","depth":2,"path":"node/process.md","ref":"node/process.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"node/path.md","mtime":"2018-07-09T03:53:05.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-11-03T06:13:19.029Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
